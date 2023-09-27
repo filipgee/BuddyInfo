@@ -15,15 +15,12 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy) {
         buddies.remove(buddy);
     }
-
-    public List<BuddyInfo> getBuddies() {
-        return buddies;
-    }
+    
 
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "carleton", "613");
         AddressBook addressBook = new AddressBook();
-        addressBook.addBuddy(buddy);
+        addressBook.addBuddy(buddy); //hello
         addressBook.removeBuddy(buddy);
     }
 }
