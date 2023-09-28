@@ -22,5 +22,6 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy); //hello
         addressBook.removeBuddy(buddy);
+        System.out.println("New text for new branch");
     }
 }
